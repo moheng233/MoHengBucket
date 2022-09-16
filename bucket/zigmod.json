@@ -1,0 +1,13 @@
+{
+    "description": "A package manager for the Zig programming language.",
+    "version": "r81",
+    "homepage": "https://github.com/nektro/zigmod",
+    "url": "https://github.com/nektro/zigmod/releases/download/r81/zigmod-x86_64-windows.exe",
+    "autoupdate": {
+        "url": "https://github.com/nektro/zigmod/releases/download/r$version/zigmod-x86_64-windows.exe"
+    },
+    "depends": "zig",
+    "bin": [
+        ["zigmod-x86_64-windows.exe", "zigmod"]
+    ]
+}
