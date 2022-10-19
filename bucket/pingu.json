@@ -1,0 +1,9 @@
+{
+    "description": "ping command implementation in Go but with colorful output and pingu ascii art",
+    "version": "0.0.4",
+    "homepage": "https://github.com/sheepla/pingu",
+    "url": "https://github.com/sheepla/pingu/releases/download/v0.0.4-alpha/pingu_0.0.4-alpha_Windows_x86_64.zip",
+    "bin": [
+        ["pingu.exe", "pingu"]
+    ]
+}
